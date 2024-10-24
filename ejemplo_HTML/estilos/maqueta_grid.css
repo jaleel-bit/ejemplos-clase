@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Por cuadricula*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}
+/*Asignar areas a elementos*/
+.item1{
+    grid-area: header;
+    background-color: teal;
+}
+.item2{
+    grid-area: sidebar;
+    background-color: yellowgreen;
+}
+.item3{
+    grid-area: main;
+    background-color: darkblue;
+}
+.item4{
+    grid-area: footer;
+    background-color: chartreuse;
+}

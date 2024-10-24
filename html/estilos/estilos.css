@@ -1,0 +1,73 @@
+body{
+    background-image: url(img/fondo.webp);
+}
+.estilo8 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(212, 149, 211, 0.5);
+}
+/* Texto con tamaño de fuente y variable*/
+.estilo9 {
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: royalblue;
+}
+.estilo10 {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: skyblue;
+}
+.estilo11 {
+    line-height: 2;
+    color: darkolivegreen;
+}
+.estilo12 {
+    text-align: justify;
+    font-size: 1.4em;
+}
+.estilo13 {
+    background-image: url(img/fondo3.jpg);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.estilo14 {
+    color: plum;
+    animation: parpadeo 1s infinite;
+}
+@keyframes parpadeo{
+    0%, 100%{opacity: 1;}
+    50% {opacity: 0;}
+}
+.estilo15 {
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+}
+.estilo16 {
+    background-color: white;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px #aaa;
+}
+.estilo17 {
+    transform: rotate(10deg);
+    color: darkorange;
+}
+.estilo18 ::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    padding-right: 5px;
+}
+.estilo19 {
+    color: palegoldenrod;
+}
+.estilo19:hover {
+    color: orange;
+}
+.estilo20 {
+    background-color: rgba(146, 255, 233, 0.5);
+    color: white;
+    padding: 10px;
+}

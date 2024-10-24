@@ -1,0 +1,78 @@
+/* Estilos generales para todas las tablas*/
+.table-container table{
+    border-collapse: collapse;
+    margin: 20px;
+    width: 300px;
+    padding: 200PX;
+}
+.table-container td{
+    border: 1px solid #dcf;
+    padding: 8px;
+    text-align: center;
+}
+
+/*Tabla1: */
+.table1 tr:nth-child(1) td{
+    background-color: darkolivegreen;
+}
+.table1 tr:nth-child(2) td{
+    background-color: cadetblue;
+}
+.table1 tr:nth-child(3) td{
+    background-color: crimson;
+}
+
+/*Tabla2: */
+.table2 td:nth-child(1) {
+    background-color: darkseagreen;
+}
+.table2 td:nth-child(2) {
+    background-color: gold;
+}
+.table2 td:nth-child(3) {
+    background-color: magenta;
+}
+.table2 td:nth-child(4) {
+    background-color: mediumpurple;
+}
+
+/* tabla3: Estilo por celdas individuales*/
+.table3 tr:nth-child(1) td:nth-child(1){
+    background-color: orange;
+}
+.table3 tr:nth-child(2) td:nth-child(2){
+    background-color: peachpuff;
+}
+.table3 tr:nth-child(3) td:nth-child(3){
+    background-color: rebeccapurple;
+}
+
+/*Tabla4: Estilo alternado en filas y colimnas*/
+.table4 tr:nth-child(odd) td:nth-child(even), 
+.table4 tr:nth-child(even) td:nth-child(odd){
+    background-color: teal;
+}
+
+/*Tabla5: Bordes diferentes para cada fila*/ 
+.table5 tr:nth-child(1) td{
+    border: 2px solid royalblue;
+}
+.table5 tr:nth-child(2) td{
+    border: 2px dashed darkred;
+}
+.table5 tr:nth-child(3) td{
+    border: 2px dotted seagreen;
+}
+
+/*Tabla 6: */
+.table6 td:nth-child(2){
+    background-color: tan;
+}
+.table6 td:nth-child(3){
+    background-color: sandybrown;
+}
+.table6 tr:nth-child(2) td:nth-child(3){
+    background-color: thistle;
+    color: white;
+    font-weight: bold;
+}

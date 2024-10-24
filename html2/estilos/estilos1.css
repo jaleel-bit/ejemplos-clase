@@ -1,0 +1,45 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+}
+.transition1:hover{
+    background-color: blueviolet;
+    color: azure;
+}
+.transition2:hover{
+    font-size: 50px;
+}
+.transition3:hover{
+    transform: translateX(100px);
+}
+.transition4:hover{
+    opacity: 0.5;
+    font-style: oblique;
+}
+.transition5:hover{
+    color: aquamarine;
+}
+.transition6:hover{
+    height: 100px;
+    padding-top: 40px;
+}
+.transition7:hover{
+    width: 300px;
+    color: bisque;
+}
+.transition8:hover{
+    transform: rotate(45deg);
+}
+.transition9:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.transition10:hover{
+transform: scale(1.5);
+}
+
+
+
+

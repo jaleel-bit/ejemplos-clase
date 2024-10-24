@@ -1,0 +1,98 @@
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px;
+}
+.menu img{
+    width: 50px;/*Ajusta el tamaño del logo*/
+    height: auto;
+    margin-right: 20px;/*Espacio entre logo*/
+    transition: transform 0.3s ease;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul li a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+/*animacion 1: Desplazamiento hacia arriba*/
+.menu li:nth-child(1) a:hover{
+    transform: translateY(-10px);
+    background-color: darkred;
+    color: azure;
+    border-radius: 5px;
+}
+/*animacion 2: Cambio de color*/
+.menu li:nth-child(2) a:hover{
+    color: gold;
+    background-color: blueviolet;
+}
+/*animacion 3: Escalar al pasar*/
+.menu li:nth-child(3) a:hover{
+    transform: scale(1.2);
+    background-color: crimson;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/*Efecto de agrandamiento para el logo*/
+.menu img:hover{
+    transform: scale(1.1);
+}
+
+/*00000*/
+.tarjetas3{
+    position: relative;
+    width: 100%;
+    max-height: 800px;
+    max-width: 100%;
+}
+
+.tarjetas3 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.contenidos3{
+    font-family: fantasy;
+    font-size: 50px;
+    margin-bottom: 10px;
+    /*Permite superponer el contenido*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+.slogan:hover{
+    font-size: 80px;
+    color: blueviolet
+}
+
+.cards{
+
+}
+div.tarjeta{
+
+}
+
+.card img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}

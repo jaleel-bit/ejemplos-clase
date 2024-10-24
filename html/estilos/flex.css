@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: powderblue;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    /* Para contraer */
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: azure;
+    padding: 8px;
+    margin: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav a:hover{
+    color: khaki;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    /* Para contraer */
+    justify-content: center;
+    align-items: center;
+}
+.nav2 a{
+    color: gold;
+    padding: 5px;
+    margin: 12px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav2 a:hover{
+    color: papayawhip;
+}
+.nav3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: crimson;
+    /* Para contraer */
+    justify-content: center;
+    align-items: center;
+}
+.nav3 a{
+    font-family: initial;
+    color: darkblue;
+}
+.nav3 a:hover{
+    font-family: cursive;
+    color: goldenrod;
+}
+.nav4{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(img/fondo2.jpg);
+    /* Para contraer */
+    justify-content: center;
+    align-items: center;
+}
+.nav4 a{
+    color: orange;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 12px;
+}
+.nav4 a:hover{
+    color: mediumaquamarine;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background-color: rebeccapurple;
+    flex: 40%;
+    padding: 15px;
+    color: gold;
+    text-align: justify;
+}
+aside h2{
+    color: cornsilk;
+    text-align: center;
+}
+section{
+    background-color: burlywood;
+    flex: 60%;
+    padding: 15px;
+}
+section h2{
+    color: darkslategrey;
+    animation: parpadeo 3s infinite;
+    text-align: center;
+}
+@keyframes parpadeo{
+    0%, 100%{opacity: 1;}
+    50% {opacity: 0;}
+}
+img{
+    width: 50%;
+}
+.galeria{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.row{
+    background-color: antiquewhite;
+    flex: 100%;
+}
+footer{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 15px;
+    flex: 100%;
+}

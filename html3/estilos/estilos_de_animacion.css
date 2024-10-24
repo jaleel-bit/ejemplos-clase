@@ -1,0 +1,50 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+/* ANIMACIONES*/
+
+/* 1 Cambio de color de fondo*/
+@keyframes backgroundChange{
+    0%{background-color: burlywood;}
+    50%{background-color: cadetblue;}
+    100%{background-color: burlywood;}
+}
+
+.animation1 {
+    animation: backgroundChange 3s infinite;
+}
+
+/*Cambio de tamaño de fuente*/
+@keyframes fontSizeChange{
+    0%{font-size: 16px}
+    50%{font-size: 24px;}
+    100%{font-size: 16px;}
+}
+.animation2 {
+    animation: fontSizeChange 2s infinite;
+}
+
+/*Desplazamiento de izquierda a derecha*/
+@keyframes moveRigth{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(100px);}
+    100{transform: translateX(0);}
+}
+.animation3 {
+    animation: moveRigth 2s infinite;
+}
+
+/*Cambio de opacidad*/
+@keyframes opacityChange{
+    0%{height: 50px;}
+    50%{height: 100px;}
+    100%{height: 50px;}
+}
+.animation4 {
+    animation: opacityChange 2s infinite;
+}

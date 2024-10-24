@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Seccion 1: Menu*/
+.menu-nav{
+    background-color: coral;
+    height: 50px;
+}
+/*Seccion 2: Slider*/
+.slider-container{
+    display: grid;
+    background-color: rgb(47, 202, 151);
+    height: 50px;
+}
+
+/*Seccion 3: Mosaico*/
+.text-mosaic{
+    display: grid;
+    /*columnas, la primera 1fr y la segunda 2fr*/
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.text-content{
+    background-color: cadetblue;
+    height: 150px;
+    padding: 20px;
+}
+.mosaic{
+    display: grid;
+    /*Mosaico de dos columnas*/
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: crimson;
+    height: 150px;
+}
+
+/*Seccion 4: Cards*/
+.cards{
+    display: grid;
+    /*Columnas iguales*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    padding: 20px;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/*Seccion 5: Formulario y foto*/
+.contact-photo{
+    display: grid;
+    /*columnas iguales*/
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+.contact-form{
+    background-color: cornflowerblue;
+    height: 180px;
+}

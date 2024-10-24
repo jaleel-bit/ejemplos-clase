@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo flexbox</title>
+    <link rel="stylesheet" href="estilos/estilos_flexbox.css">
+    <link rel="stylesheet" href="estilos/menu.css">
+    
+</head>
+<body>
+    <!--Seccion 1: Menu-->
+    <header class="section menu">
+        <nav class="menu">
+            <img src="img/youtube2.png" alt="">
+            <ul>
+                <li><a href="#" id="">Inicio</a></li>
+                <li><a href="#" id="">Productos</a></li>
+                <li><a href="#" id="">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Seccion 2: Slider de fotos-->
+    <section class="slider">
+        <div class="tarjetas3">
+            <img src="img/imagen2.jpg" alt="">
+            <div class="contenidos3">
+                <p class="slogan">Mejorando vidas</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion 3: Texto y Mosaico de fotos-->
+    <section class="section text-mosaic">
+        <div class="text-content">
+            <p>texto</p>
+        </div>
+        <div class="mosaic">
+            <p>mosaico fotos</p>
+            <p>mosaico fotos</p>
+            <p>mosaico fotos</p>
+            <p>mosaico fotos</p>
+        </div>
+    </section>
+
+    <!--Seccion 4: Tarjetas-->
+    <section class="section cards">
+        <div class="card">
+            <img src="img/imgen1.png" alt="">
+            <div class="texto">Uno como otros</div>
+        </div>
+        <div class="card">Card 2</div>
+        <div class="card">card 3</div>
+    </section>
+
+    <!--Seccion 5: Formulario de contacto y foto-->
+    <section class="section contact-photo">
+        <div class="contact-form">
+            <form action="">
+                <label for="name" >Nombre:</label><input type="text" name="name" id="name">
+                <label for="password" >Contraseña:</label><input type="password" name="contraseña" placeholder="Ingrese su contraseña">
+                <label for="email" >Email:</label><input type="email" placeholder="nombre@dominio">
+                <label for="file" >Archivo:</label><input type="file">
+                <label for="date" >Fecha</label><input type="date">
+                <label for="color" >Color</label><input type="color">
+                <label for="name" >Nombre</label><input type="checkbox" name="intereses" value="deporte">Deporte
+                <label for="name" >Nombre</label><input type="checkbox" name="intereses" value="arte">Arte
+
+                <label for="name" >Genero</label><input type="radio" name="genero" value="masculino">Arte
+                <label for="name" >Genero</label><input type="radio" name="genero" value="Femenino">Arte
+
+                <button type="submit">submit</button>
+                <button type="reset">Reset</button>
+                <select name="menu">
+                    <option value="">Uno</option>
+                    <option value="">Dos</option>
+                    <option value="">Tres</option>
+                </select>
+            </form>
+        </div>
+        <div class="login-container">
+            <h2>Iniciar Sesion</h2>
+            <form action="#" class="" id="" method="POST">
+                <div class="input-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit" class="btn-login" >Iniciar Sesion</button>
+                <a href="#" class="forgot-password">¿Olvidaste tu Contraseña</a>
+            </form>
+
+        </div>
+        <div class="photo">
+
+        </div>
+    </section>
+
+    <!--Seccion 6: Footer-->
+    <footer class="section footer">
+        <div class="social-media">
+
+        </div>
+        <div class="address">
+
+        </div>
+        <div class="logo">
+
+        </div>
+    </footer>
+</body>
+</html>
